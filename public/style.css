@@ -1,0 +1,66 @@
+.inputs {
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.img {
+  height: 250px;
+  width: 420px;
+  image-resolution: from-image;
+  margin: 7px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 5px 5px 4px 3px #ccc;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+.masnory_container {
+  margin: 50px auto;
+}
+
+.not-found {
+  text-align: center;
+  margin: 40px;
+}
+
+.brand{
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .inputs {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+    .img {
+  height: 250px;
+  width: 100%;
+  image-resolution: from-image;
+  margin: 7px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 5px 5px 4px 3px #ccc;
+}
+
+body{
+    overflow-x: hidden;
+}
+}
